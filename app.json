@@ -1,3 +1,4 @@
+#consists of supabase url,anon keys and expo-projectid
 {
   "expo": {
     "name": "BrieflyAI",
