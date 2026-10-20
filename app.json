@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "BrieflyAI",
+    "slug": "briefly-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#3772E5"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.briefly.ai"
+    },
+    "android": {
+      "package": "com.briefly.ai",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3772E5"
+      }
+    },
+    "extra": {
+      "supabaseUrl": "https://islccsxkznpccemaduxu.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlzbGNjc3hrem5wY2NlbWFkdXh1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg4ODAzNjMsImV4cCI6MjEwNDQ1NjM2M30.x_ZjTsvXFLXg8rFvNJdro35Zc3JTgOPnlEOYDX_SCfc",
+      "eas": {
+        "projectId": "cc049945-ded7-4126-b756-5935a3c3e3f4"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/cc049945-ded7-4126-b756-5935a3c3e3f4"
+    },
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "BrieflyAI needs microphone access to record your lectures.",
+          "recordAudioAndroid": true
+        }
+      ],
+      "expo-build-properties"
+    ]
+  }
+}
