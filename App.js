@@ -1,3 +1,4 @@
+#this is the apps entry point 
 import React, { useCallback } from "react";
 import { View } from "react-native";
 import { StatusBar } from "expo-status-bar";
