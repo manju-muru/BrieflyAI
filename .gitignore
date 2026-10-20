@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Expo and build output
+.expo/
+dist/
+web-build/
+android/
+ios/
+
+# Supabase local state
+supabase/.temp/
+supabase/.branches/
+
+# Secrets and environment files
+.env
+.env.*
+*.key
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+
+# Logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Compiled JS bundles
+*.hbc
+*.hbc.map
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
